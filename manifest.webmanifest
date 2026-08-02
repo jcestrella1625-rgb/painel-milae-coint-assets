@@ -2,7 +2,7 @@
   "id": "./",
   "name": "PAINEL MILAE COINT",
   "short_name": "MILAE COINT",
-  "description": "Indicadores estatisticos do Comando de Inteligencia - CoInt.",
+  "description": "Indicadores estatísticos do Comando de Inteligência — CoInt.",
   "lang": "pt-BR",
   "start_url": "./?origem=atalho",
   "scope": "./",

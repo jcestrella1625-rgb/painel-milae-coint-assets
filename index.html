@@ -8,7 +8,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="MILAE COINT">
-  <title>PAINEL MILAE COINT - Ativos visuais</title>
+  <title>PAINEL MILAE COINT — Ativos visuais</title>
   <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
   <link rel="manifest" href="manifest.webmanifest">
@@ -31,27 +31,27 @@
 </head>
 <body>
   <main>
-    <img src="icon-512.png" alt="Comando de Inteligencia - CoInt">
+    <img src="icon-512.png" alt="Comando de Inteligência — CoInt">
     <h1>PAINEL MILAE COINT</h1>
-    <p class="subtitle">Instalacao segura para iPhone e iPad</p>
-    <section class="instructions" aria-label="Instrucoes de instalacao no iOS">
+    <p class="subtitle">Instalação segura para iPhone e iPad</p>
+    <section class="instructions" aria-label="Instruções de instalação no iOS">
       <strong>No Safari:</strong>
       <ol>
         <li>Toque em <b>Compartilhar</b>.</li>
-        <li>Escolha <b>Adicionar a Tela de Inicio</b>.</li>
+        <li>Escolha <b>Adicionar à Tela de Início</b>.</li>
         <li>Confirme em <b>Adicionar</b>.</li>
       </ol>
     </section>
     <a class="open-app" id="openApp" href="https://script.google.com/macros/s/AKfycbzghTpmJwWjMwuymxF-vSv9Oyo03FES52Lw7GRn9VDNfMGTRxr9Zj6ZUlm3smGbM8RQnA/exec">Abrir PAINEL MILAE COINT</a>
     <p class="status" id="status" role="status" aria-live="polite"></p>
-    <small>O acesso continua restrito e exige e-mail e credencial cadastrados. Nenhum dado operacional e armazenado nesta pagina.</small>
+    <small>O acesso continua restrito e exige e-mail e credencial cadastrados. Nenhum dado operacional é armazenado nesta página.</small>
   </main>
   <script>
     const APP_URL = 'https://script.google.com/macros/s/AKfycbzghTpmJwWjMwuymxF-vSv9Oyo03FES52Lw7GRn9VDNfMGTRxr9Zj6ZUlm3smGbM8RQnA/exec';
     const installed = window.navigator.standalone === true || window.matchMedia('(display-mode: standalone)').matches;
     const launchedFromShortcut = new URLSearchParams(window.location.search).get('origem') === 'atalho';
     if (installed || launchedFromShortcut) {
-      document.getElementById('status').textContent = 'Abrindo o ambiente seguro do painel...';
+      document.getElementById('status').textContent = 'Abrindo o ambiente seguro do painel…';
       window.setTimeout(() => window.location.replace(APP_URL), 350);
     }
   </script>
