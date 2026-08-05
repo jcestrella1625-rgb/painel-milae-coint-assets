@@ -12,3 +12,8 @@ A página inicial também funciona como instalador seguro para o iOS. O atalho u
 - `icon-512.png`: ícone padrão de 512 x 512 px.
 - `apple-touch-icon.png`: ícone de 180 x 180 px para atalhos do iOS.
 - `manifest.webmanifest`: identidade instalável do aplicativo.
+- `territorios-portaria-262-2025.geojson`: limites municipais simplificados da
+  Bahia, derivados da Malha Municipal Digital 2025 do IBGE e classificados
+  conforme a Portaria SSP nº 262/2025. O arquivo contém apenas limites e
+  referências administrativas públicas; não contém ocorrências ou dados de
+  usuários do MILAE.
