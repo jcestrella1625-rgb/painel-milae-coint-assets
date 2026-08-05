@@ -17,3 +17,9 @@ A página inicial também funciona como instalador seguro para o iOS. O atalho u
   conforme a Portaria SSP nº 262/2025. O arquivo contém apenas limites e
   referências administrativas públicas; não contém ocorrências ou dados de
   usuários do MILAE.
+
+- `territorios-portaria-262-2025-v300.geojson`: revisão territorial que mantém
+  a malha municipal da Bahia e substitui somente Salvador por seus 170 bairros
+  oficiais do GeoSalvador. Os bairros são agrupados em CPRC-Atlântico,
+  CPRC-Baía de Todos os Santos e CPRC-Central conforme o mapa da Portaria SSP
+  nº 262/2025. O arquivo não contém ocorrências nem dados de usuários.
